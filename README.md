@@ -1,3 +1,3 @@
 # delook
 
-aplikasi movies
+Membuat aplikasi pemesanan ticket bioskop
