@@ -6,3 +6,4 @@ Todo:
 - [] Membuat aplikasi pemesanan tiket bioskop
 - [] Menggunakan API Movies dari TMDB
 - [] Testing API dengan Postman
+- [] Database dengan Firebase
