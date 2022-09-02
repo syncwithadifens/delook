@@ -1,3 +1,5 @@
 # delook
 
-Membuat aplikasi pemesanan ticket bioskop
+Todo:
+
+- [] Membuat aplikasi pemesanan tiket bioskop
