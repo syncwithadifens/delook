@@ -4,10 +4,14 @@ class AuthService {
   static final FirebaseAuth _auth = FirebaseAuth.instance;
 
   static Future signUp(String email, String password, String name,
-      List<String> selectedGenre, String selectedLanguage) async {
+      List<String> selectedGenres, String selectedLanguage) async {
     try {
-      var result = await _auth.createUserWithEmailAndPassword(
+      UserCredential result = await _auth.createUserWithEmailAndPassword(
           email: email, password: password);
+      User user = result.user.convertToUser(
+          name: name,
+          selectedGenres: selectedGenres,
+          selectedLanguage: selectedLanguage);
     } catch (e) {}
   }
 }
