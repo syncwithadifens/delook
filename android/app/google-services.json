@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "296914752006",
+    "project_id": "delook-backend",
+    "storage_bucket": "delook-backend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296914752006:android:f3e80815d89eadbe81a987",
+        "android_client_info": {
+          "package_name": "com.example.delook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296914752006-7pc3r4fd7fqj20gm5i55pdb08jlv98ot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5xPSmduifoj3srK1k3F2NQ_6uG6Wq9dk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "296914752006-7pc3r4fd7fqj20gm5i55pdb08jlv98ot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
